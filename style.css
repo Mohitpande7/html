@@ -1,0 +1,145 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ a{
+    text-decoration: none;
+ }
+
+ ul
+{
+list-style: none;
+}
+.active{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.active2{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.active3{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.button{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ctn{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+     left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+    padding: 20px;
+    color: orange;
+    background-color: aqua;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+ }
+ 
+
+ 
+header{
+   height: 100vh;
+   width: 100vw;
+    color: black;
+    background-image: url(./img1.jpg);
+    background-size:cover ;
+    background-position:bottom ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .header-content{
+    margin-bottom: 150px;
+    color: aliceblue;
+    text-align: center;
+   }
+   .line{
+    width: 900px;
+    height: 3px;
+    background: red;
+    margin: 10px;
+    border-radius: 5px;
+   }
+
+   .header-content h1{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   }
+   .ctn{
+    padding:8px;
+    border-radius: 30px;
+    color:black;
+   }
+
+
+   @media only screen and (max-width:850px){
+    .navbar
+    {
+        padding: 0;
+    }
+
+    .logo{
+        position: absolute;
+        top: 30px;
+        left:30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background:darkblue
+    }
+    .nav-links li{
+        margin:30px auto;
+    }
+   }
+
+   .active:hover{
+    background-color: yellow;
+   }
+   .active2:hover{
+    background-color: yellow;
+
+   }
+
+   .active3:hover{
+    background-color: yellow;
+    
+   }
+   .button:active{
+    background-color: red;
+   }
+
+   .ctn:active{
+    background-color: red;
+   }
+   
+   
